@@ -1,0 +1,19 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 76px;
+}
+.items {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+}
+.user{
+width: 25%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
