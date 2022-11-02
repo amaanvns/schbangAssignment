@@ -1,0 +1,52 @@
+.footer {
+  background-color: #ffedde;
+  display: flex;
+  align-items: center;
+  height: 992px;
+}
+.redBox {
+  width: 30px;
+  height: 150px;
+  background-color: #fe043c;
+  margin-left: 20px;
+}
+.allInfo {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 500px;
+}
+.info {
+  width: 50%;
+  color: #707070;
+  font-size: large;
+}
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgContainer {
+  width: 100%;
+  padding-left: 200px;
+  padding-top: 100px;
+  position: relative;
+  z-index: 2;
+}
+
+.imgContainer :nth-child(2) {
+  width: 470px;
+  height: auto;
+  position: absolute;
+  left: 67px;
+  bottom: 131px;
+  z-index: -1;
+}

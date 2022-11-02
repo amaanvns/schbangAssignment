@@ -1,0 +1,73 @@
+.main {
+  display: flex;
+  width: 100%;
+  background-color: #fff5ec;
+  display: flex;
+  height: 1350px;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 200px;
+
+}
+.services {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 85%;
+  margin-top: 150px;
+}
+.redBox {
+  width: 30px;
+  height: 150px;
+  background-color: #fe043c;
+  margin-left: 20px;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.infoTop,
+.infoBottom {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.infoLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+}
+.infoRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: -250px;
+  height: 650px;
+  padding: 0px 100px;
+  background-color: #ffedde;
+  width: 40%;
+}
+.infoLogo1 {
+  background-color: #ffedde;
+  padding: 60px;
+  margin-right: 80px;
+}
+
+.infoLogo2 {
+  padding: 60px;
+  background-color: #ffedde;
+  margin-left: 80px;
+}
+
+.info1 {
+  width: 40%;
+}
+
+.info2 {
+  width: 30%;
+}
