@@ -7,7 +7,6 @@
   flex-direction: column;
   justify-content: space-between;
   padding-bottom: 200px;
-
 }
 .services {
   display: flex;
@@ -15,6 +14,12 @@
   align-items: center;
   width: 85%;
   margin-top: 150px;
+}
+.services :nth-child(3) {
+  font-size: 23px;
+  width: 65%;
+  padding-left: 150px;
+  color: #707070;
 }
 .redBox {
   width: 30px;
@@ -70,4 +75,53 @@
 
 .info2 {
   width: 30%;
+}
+
+.arrowRight{
+  position: absolute;
+  right: 35%;
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .services {
+    flex-direction: column;
+    width: 100%;
+  }
+  .redBox {
+    display: none;
+  }
+  .services :nth-child(3) {
+    width: 100%;
+    padding: 20px;
+  }
+  .info {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px
+  }
+  .infoLogo1 {
+    padding: 0;
+  }
+  .infoLogo2 {
+    padding: 0;
+  }
+  .main {
+    height: 2240px;
+  }
+  .infoRight {
+    width: 100%;
+    margin-left: 0;
+    padding: 0 20px;
+  }
+  .arrowRight{
+    display: none;
+
+  }
+  .infoTop :nth-child(3) {
+    display: none;
+  }
+  .infoLogo1{
+    margin-right: 40px;
+  }
 }

@@ -10,12 +10,13 @@ const Main = () => {
           Our <br /> Services
         </div>
         <div
-          style={{
-            fontSize: "23px",
-            width: "65%",
-            paddingLeft: "150px",
-            color: "#707070",
-          }}
+        // style={{
+        //   fontSize: "23px",
+        //   width: "65%",
+        //   paddingLeft: "150px",
+        //   color: "#707070",
+
+        // }}
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto Lorem
           ipsum dolor sit amet, consectetur adipisicing elit. voluptate,
@@ -93,7 +94,9 @@ const Main = () => {
             <img
               src="/Group 55.png"
               alt=""
-              style={{ position: "absolute", right: "35%" }}
+              className={styles.arrowRight}
+              // style={{ position: "absolute", right: "35%" }}
+        
             />
 
             <div className={styles.infoLogo2}>

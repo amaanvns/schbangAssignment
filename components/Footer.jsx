@@ -7,7 +7,7 @@ export const Footer = () => {
       <div className={styles.allInfo}>
         <div className={styles.app}>
           <div className={styles.redBox}></div>
-          <div style={{ fontSize: "75px", color: "#2e266f", width: "70%" }}>
+          <div >
             Download app for Exciting Deals
           </div>
         </div>

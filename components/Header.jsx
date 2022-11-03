@@ -7,7 +7,7 @@ const Header = () => {
     <div className={styles.header}>
       <div className={styles.header2}>
         <div className={styles.headerTitle}>
-          <h1 style={{ fontSize: "85px", color: "#2e266f" }}>
+          <h1 className={styles.headerHead}>
             Discover Restaurant <br /> & Delicious Food
           </h1>
           <div className={styles.input}>
@@ -20,7 +20,7 @@ const Header = () => {
           <img src="/—Pngtree—lettuc.png" className={styles.image1} />
         </div>
       </div>
-      <div style={{marginTop:'-100px'}}>
+      <div className={styles.locationInfo}>
         <div className={styles.location}>
           <img src="/placeholder.png" alt="" style={{ marginRight: "20px" }} />
           <p style={{ fontSize: "25px", color: "white" }}>Hyderabad</p>

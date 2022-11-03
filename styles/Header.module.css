@@ -21,6 +21,11 @@
   padding-left: 100px;
 }
 
+.headerHead {
+  font-size: 85px;
+  color: #2e266f;
+}
+
 .headerImage {
   position: relative;
   z-index: 2;
@@ -69,7 +74,9 @@
 .input input:focus {
   outline: none;
 }
-
+.locationInfo {
+  margin-top: -100px;
+}
 .location {
   display: flex;
   align-items: center;
@@ -79,7 +86,31 @@
   height: 78px;
   background-color: #fe043c;
 }
-.arrows{
-    display: flex;
-    justify-content: flex-end;
+.arrows {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media only screen and (max-width: 600px) {
+  .input {
+    flex-direction: column;
+  }
+  .headerHead {
+    font-size: 60px;
+  }
+  .header2 {
+    flex-direction: column;
+  }
+  .headerTitle {
+    padding-left: 30px;
+  }
+  .headerImage {
+    margin: 80px auto;
+  }
+  .locationInfo {
+    margin-top: 0;
+  }
+  .location{
+    margin-bottom: 20px;
+  }
 }
